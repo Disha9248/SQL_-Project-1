@@ -6,7 +6,7 @@ The dataset contains information about user activity, including submissions, poi
 ## Objectives
 - Learn how to use SQL for data analysis tasks such as aggregation, filtering, and ranking.
 - Understand how to calculate and manipulate data in a real-world dataset.
-- Gain hands-on experience with SQL functions like COUNT, SUM, AVG, EXTRACT(), and RANK().
+- Gain hands-on experience with SQL functions like `COUNT`, `SUM`, `AVG`, `EXTRACT()`, and `RANK()`.
 - Develop skills for performance analysis using SQL by solving different types of data problems related to user performance.
 ## Project Level: Beginner
 This project is a beginners level project.To get me familiar with the basics of SQL and to gain knowledge on how to handle real-world data analysis problems. I have worked with a small dataset and had used SQL queries to solve different tasks that are commonly encountered in data analytics.
@@ -29,10 +29,10 @@ Here are the SQL problems that I have solved as part of this project:
 ### Q5. Find the Top 10 Performers for Each Week
  - Expected Output: A report showing the top 10 users ranked by total points per week
 ## Key SQL Concepts Covered
-- Aggregation: Using COUNT, SUM, AVG to aggregate data.
-- Date Functions: Using EXTRACT() and TO_CHAR() for manipulating dates.
+- Aggregation: Using `COUNT`, `SUM`, `AVG` to aggregate data.
+- Date Functions: Using `EXTRACT()` and `TO_CHAR()` for manipulating dates.
 - Conditional Aggregation: Using CASE WHEN to handle positive and negative submissions.
-- Ranking: Using DENSE_RANK() to rank users based on their performance.
+- Ranking: Using `RANK()` to rank users based on their performance.
 - Group By: Aggregating results by groups (e.g., by user, by day, by week).
 ## Conclusion
 This project provides an excellent opportunity for me as a beginners to gain SQL knowledge to solve practical data problems. By working through these SQL queries, I gain hands-on experience with data aggregation, ranking, date manipulation, and conditional logic.
