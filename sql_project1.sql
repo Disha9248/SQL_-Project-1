@@ -33,7 +33,7 @@ SELECT * FROM user_submissions;
 
 SELECT username,
        COUNT(question_id) AS total_submissions,
-	   SUM(points) AS points_earned
+       SUM(points) AS points_earned
 FROM 
      user_submissions
 GROUP BY 
@@ -46,7 +46,7 @@ ORDER BY
 
 SELECT TO_CHAR(submitted_at,'dd-mm') AS day,
        username,
-	   ROUND(AVG(points),2) AS average_points
+       ROUND(AVG(points),2) AS average_points
 FROM 
      user_submissions
 GROUP BY 
@@ -58,10 +58,10 @@ GROUP BY
 WITH daily_positive_submissions AS (
 	SELECT username, 
 	       TO_CHAR(submitted_at,'dd-mm') AS day,
-		   SUM(CASE 
-			      WHEN points > 0 THEN 1 
-				  ELSE 0
-			   END) AS correct_submissions
+		SUM(CASE 
+			 WHEN points > 0 THEN 1 
+			 ELSE 0
+		    END) AS correct_submissions
 	FROM 
 	    user_submissions
 	GROUP BY 
